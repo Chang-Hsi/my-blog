@@ -64,6 +64,7 @@
 import { ArrowUpRightIcon } from "@heroicons/vue/24/outline";
 import POD from "@/assets/img/POD.png";
 import Craft from "@/assets/img/Craft.png";
+import Dash from "@/assets/img/Dash.png";
 
 const projects = [
   {
@@ -82,10 +83,10 @@ const projects = [
   },
   {
     id: 3,
-    title: "FinCraft 數據分析儀表板",
-    subtitle: "將複雜財務數據轉化為清晰易讀的圖表，協助使用者快速掌握關鍵指標。",
-    image: "https://i.pinimg.com/736x/42/e8/33/42e833d3455782d348af5a4311685886.jpg",
-    link: "",
+    title: "Dasher 分析儀表板與後台管理系統",
+    subtitle: "將複雜數據轉化為清晰易讀的圖表，協助使用者快速掌握關鍵指標。",
+    image: Dash,
+    link: "https://chang-hsi.github.io/dashboard-admin/tasks",
   },
   {
     id: 4,

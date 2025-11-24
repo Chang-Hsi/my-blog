@@ -1,38 +1,41 @@
-# my-blog
+# My Blog
 
-This template should help get you started developing with Vue 3 in Vite.
+一個使用 **Vite + Vue 3 + Tailwind CSS** 打造的個人部落格／作品網站，用來記錄前端開發心得與作品展示。
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 技術堆疊
 
-## Recommended Browser Setup
+- **Vite** – 開發與打包工具，啟動快速、熱更新流暢
+- **Vue 3** – 主架構 (Composition API)
+- **Tailwind CSS** – 實用工具導向的 CSS 框架
+- **vite-plugin-vue-devtools** – 開發時方便除錯與檢視元件狀態
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Customize configuration
+## 📂 專案結構（簡要）
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- `src/` – 主程式碼（頁面、元件、樣式等）
+- `public/` – 靜態資源
+- `docs/` – 打包後的靜態檔案，用於 GitHub Pages 部署
+- `vite.config.js` – Vite 設定檔（包含 GitHub Pages 相關設定）
 
-## Project Setup
+> `vite.config.js` 內已設定：
+> ```js
+> base: '/my-blog/',
+> build: {
+>   outDir: 'docs',
+> }
+> ```
+> `base` 需與 GitHub 專案名稱一致（此例為 `my-blog`）。
 
-```sh
+---
+
+## 🧑‍💻 本地開發
+
+```bash
+# 安裝套件
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# 啟動開發伺服器
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
