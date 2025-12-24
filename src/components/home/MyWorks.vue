@@ -65,6 +65,7 @@ import { ArrowUpRightIcon } from "@heroicons/vue/24/outline";
 import POD from "@/assets/img/POD.png";
 import Craft from "@/assets/img/Craft.png";
 import Dash from "@/assets/img/Dash.png";
+import Work from "@/assets/img/work.png";
 
 const projects = [
   {
@@ -90,10 +91,11 @@ const projects = [
   },
   {
     id: 4,
-    title: "Luminous 品牌 Landing Page",
-    subtitle: "結合品牌故事與產品重點的轉換導向頁面，聚焦視覺與行動呼籲。",
-    image: "https://i.pinimg.com/1200x/5e/c2/ac/5ec2ac51d8ee3d89ee2bad6df04244e7.jpg",
-    link: "",
+    title: "TailAdmin 後台管理系統",
+    subtitle:
+      "這是一個以 Vue 3 打造的後台管理系統作品，目標是建立「可複用、可擴充」的後台 UI 與權限流程。",
+    image: Work,
+    link: "https://chang-hsi.github.io/tailadmin-vue/",
   },
 ];
 
