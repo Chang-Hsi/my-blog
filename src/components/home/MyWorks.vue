@@ -97,6 +97,14 @@ const projects = [
     image: Work,
     link: "https://chang-hsi.github.io/tailadmin-vue/",
   },
+  {
+    id: 5,
+    title: "PayEZ 前台電商網站",
+    subtitle:
+      "這是一個企業福利／特約優惠的前台網站，提供品牌、主題推薦等瀏覽與詳情頁。整體有做RWD，並針對手機版型重新設計卡片與輪播，讓操作更像 App。",
+    image: Work,
+    link: "https://chang-hsi.github.io/vue-shopping/",
+  },
 ];
 
 const viewProject = (project) => {
