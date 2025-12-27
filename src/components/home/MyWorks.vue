@@ -67,6 +67,7 @@ import Craft from "@/assets/img/Craft.png";
 import Dash from "@/assets/img/Dash.png";
 import Work from "@/assets/img/work.png";
 import Shop from "@/assets/img/shop.png";
+import Admin from "@/assets/img/backAdmin.png";
 
 const projects = [
   {
@@ -105,6 +106,14 @@ const projects = [
       "這是一個企業福利／特約優惠的前台網站，提供品牌、主題推薦等瀏覽與詳情頁。整體有做RWD，並針對手機版型重新設計卡片與輪播，讓操作更像 App。",
     image: Shop,
     link: "https://chang-hsi.github.io/vue-shopping/",
+  },
+  {
+    id: 6,
+    title: "PayEZ 後台管理網站",
+    subtitle:
+      "這是一個企業福利／特約優惠的後台網站，提供儀表板、列表與詳情頁等可供瀏覽，管理的網站。使用Typescript做成。",
+    image: Admin,
+    link: "https://chang-hsi.github.io/falcon-vue/",
   },
 ];
 
